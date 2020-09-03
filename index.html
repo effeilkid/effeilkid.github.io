@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta title="TODO-LIST">
+        <link href="https://fonts.googleapis.com/css2?family=Acme&family=Heebo&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <h1>TODOLIST</h1>
+        </header>
+            <form>
+                <input type="text" class="todotext">
+                <button class="todobutt" type="submit">
+                    <i class="fas fa-plus-square"></i>
+                </button>
+                <div class="select">
+                    <select name="todos" class="filtrtodo">
+                    <option value="all">Wszystko</option>
+                    <option value="completed">Wykonane</option>
+                    <option value="deleted">Nie wykonane</option>
+                    
+                    </select>
+                </div>
+            </form>
+            <div class="todomain">
+                <ul class="todolist"></ul>
+            </div>
+            
+        <script src="app.js"></script>
+    </body>
+</html>
